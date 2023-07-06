@@ -1,4 +1,5 @@
 
+
 function factorial(n) {
     let stack = [];
     while (n > 0) {
