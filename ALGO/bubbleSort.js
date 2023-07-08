@@ -1,4 +1,5 @@
 
+// The efficiency of Bubble Sort is O(N^2)
 
 function bubbleSort(array) {
     let sorted = false;
