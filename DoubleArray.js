@@ -13,7 +13,7 @@ function DoubleArray1(array) {
 console.log(DoubleArray1(array))
 
 
-// Solition 2: Using a Recursive approach.
+// Solution 2: Using a Recursive approach.
 
 function DoubleArray2(array, i = 0) {
     if (i >= array.length) {
