@@ -14,3 +14,4 @@ const characterX = (str, index = 0) => {
     return characterX(str, index + 1)
    }
 }
+console.log(characterX(character))
