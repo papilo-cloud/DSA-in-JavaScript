@@ -1,3 +1,5 @@
+// Use recursion to write a function that accepts an array of numbers and
+// returns a new array containing just the even numbers.
 
 let array = [1,2,3,4,5,7,8,9,10];
 
