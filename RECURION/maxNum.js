@@ -6,10 +6,17 @@ function maxNum(array, index = 0) {
     if (index == array.length) {
         return array[0]
     }
-    if (array[index] > maxNum(array, index + 1)) {
+    
+    //   Calculate the max of the remainder of the array
+    //   and store it inside a variable:
+    let max = maxNum(array, index + 1)
+
+    // Comparison of first number against this variable:
+
+    if (array[index] > max) {
         return array[index];
     } else {
-        return maxNum(array, index + 1);
+        return max;
     }
 }
 
