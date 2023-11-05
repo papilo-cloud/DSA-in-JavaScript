@@ -16,7 +16,7 @@ class Stack {
     }
 
     peek(){
-        return this.dataStore[this.top];
+        return this.dataStore[this.top - 1];
     }
 
     clear(){
@@ -37,5 +37,5 @@ console.log(stack.peek())
 
 stack.pop();
 stack.pop();
-console.log(stack.length)
+console.log(stack.length())
 console.log(stack.peek())
