@@ -5,7 +5,7 @@ class Base{
        this.data = [];
     }
     baseFunction(number, base){
-       let ans = '';
+       let ans = ''; 
        do {
           this.data.push(number%base)
           number = Math.floor(number / base)

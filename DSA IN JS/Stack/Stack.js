@@ -12,7 +12,11 @@ class Stack {
     }
 
     pop(){
-        return this.dataStore[--this.top];
+        if (this.top == 0) {
+            return 'stack underflow'
+        } else {
+            return this.dataStore[--this.top];
+        }
     }
 
     peek(){
