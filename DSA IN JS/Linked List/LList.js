@@ -37,7 +37,6 @@ const node4 = new Node('Node-D')
 node1.nextNode = node2
 node2.nextNode = node3
 node3.nextNode = node4
-console.log(node1)
 
 const list = new LinkedList(node1)
 
