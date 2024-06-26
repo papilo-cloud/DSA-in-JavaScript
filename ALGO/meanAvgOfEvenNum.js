@@ -1,4 +1,4 @@
-
+// Time complexity is O(Nv)
 
 function meanAvgOfEvenNum(array) {
     let sum = 0;
